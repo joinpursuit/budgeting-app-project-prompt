@@ -1,6 +1,6 @@
 # Full Stack Budgeting App
 
-Create a backend API using express that performs full CRUD on one model: `transactions`, using RESTful routes.
+Create a backend API using express that performs full CRUD on one model: `transactions`, using RESTful routes and connect it to a React app.
 
 ## Overview
 
@@ -15,10 +15,10 @@ You must implement all of the user stories and acceptance criteria below. After 
 ### User Stories
 
 1. I can navigate to the index page and new page from the nav bar
-1. I can see a list of income and expenditures with the date, the transactions and the value on the index page
-1. I can click on the new button that takes me to a new form that lets me create a new transactions
+1. I can see a list of income and expenditures with the date, the transaction name and the amount on the index page
+1. I can click on the new button that takes me to a new form that lets me create a new transaction
 1. After clicking the submit button on the new form, it takes me back to the index page
-1. I can visit this app on the Internet
+1. I can visit this app on the internet that uses data from my express API
 1. I can share the link to the new page (once my apps are hosted online) and someone else will be able to see the form to create a new transaction
 
 ### Acceptance Criteria
@@ -45,15 +45,15 @@ Other files and folders required for full functionality of your app
 #### Front-End
 
 1. Is deployed online (ie on Netlify)
-1. I can use the nav bar to navigate between the `index`page and the `new` page
+1. I can use the nav bar to navigate between the `index` page and the `new` page
 1. I can see the `index` page which has
 
    - the nav bar
    - a list of transactions that have the following properties visible:
-   - `date` - a string: In any format (bonus will be to use the date object)
-   - `name` - a string: The name of the transactions
-   - `amount` - a number: The amount of the expenditure/income
-   - The bank account total somewhere near the top
+     - `date` - a string: In any format (bonus will be to use the date object)
+     - `name` - a string: The name of the transactions
+     - `amount` - a number: The amount of the expenditure/income
+     - The bank account total somewhere near the top
 
 1. I can see the new page for a budget transactions. The url will be `/transactionss/new`
    - the nav bar
@@ -66,6 +66,14 @@ Other files and folders required for full functionality of your app
 ### Code Quality Rubric
 
 #### Back-end
+
+- Uses the following npm packages
+
+  - express
+  - dotenv
+  - cors
+
+- Is properly configured to be deployed online
 
 - The following folders (with the appropriately named files inside)
   - `models`
