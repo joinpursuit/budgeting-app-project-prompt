@@ -113,7 +113,7 @@ Other files and folders required for full functionality of your app
 - Change the font color of the Bank account total to be a shade of red if it falls below 0 and to a shade of green if it goes above 1000
 - Use the date object for the date, instead of just a string
 - Use the input type `date` for the date
-- Add a library like [chatjs](https://www.chartjs.org) or [D3](https://www.chartjs.org) to provide visualizations the budget app
+- Add a library like [chartjs](https://www.chartjs.org) or [D3](https://www.chartjs.org) to provide visualizations the budget app
 
 ## Example Screenshots
 
