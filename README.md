@@ -91,7 +91,7 @@ Other files and folders required for full functionality of your app
 #### Front-end
 
 - Use JSX to create components
-- Use react hooks
+- Talk with your instructor to commit to either using class based components to manage state OR using hooks.
 - Use `create-react-app` to build a React app
 - Use `axios` to make an API call
 - Use `react-router-dom` to create different views
