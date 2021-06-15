@@ -66,6 +66,7 @@ Other files and folders required for full functionality of your app
 ### Code Quality Rubric
 
 #### Back-end
+Consider following [this](https://github.com/joinpursuit/basic-express-app) repo's guide to create your backend 
 
 - Uses the following npm packages
 
