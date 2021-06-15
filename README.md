@@ -55,7 +55,7 @@ Other files and folders required for full functionality of your app
      - `amount` - a number: The amount of the expenditure/income
      - The bank account total somewhere near the top
 
-1. I can see the new page for a budget transactions. The url will be `/transactionss/new`
+1. I can see the new page for a budget transactions. The url will be `/transactions/new`
    - the nav bar
    - the form to create a new transactions that has the following fields
      - `date` - a string: In any format (bonus will be to use the date object)
