@@ -224,7 +224,7 @@ In order for heroku to work properly, you can't have `node_modules` in your repo
 - Let's start by creating an app on heroku. If you don't yet have a name for your app it's ok, you can change it later (just make sure you update your git remotes too)
   - `heroku create [unique name]` from your project's root directory where you first initialized git.
     This will check heroku to see if the app name exists, if so you'll get an error message and have to try again.
-  - If you don't specify a name, heroku will generate a unique name for you. There names are pretty cool and somewhat thematic so feel free to do either.
+  - If you don't specify a name, heroku will generate a unique name for you. Their names are pretty cool and somewhat thematic so feel free to do either.
   - You can also do this step off their website if you want but since you'll be working in terminal anyway, might as well just do it through terminal.
   - Notice that if you successfully created a heroku app, you can see that the heroku remote was automatically added to your project's repo. Confirm this by typing `git remote -v`, you should see `origin` as well as `heroku`.
 
