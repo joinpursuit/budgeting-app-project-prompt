@@ -17,14 +17,20 @@ Create a backend API using Express that performs full CRUD on a single model, `t
 
 You must implement all of the user stories and acceptance criteria below. After those are completed, look at and implement as many of the bonus features as you want to.
 
+Be sure to build this out as a portfolio piece: Something you would be excited to show to a potential employer and be able to talk through the code with them. 
+
 ### User Stories
 
 1. I can navigate to the Index page and New page from the navigation bar.
 1. I can see a list of income and expenditures with the date, the transaction name and the amount on the Index page.
 1. I can click on a "New" button that takes me to the New page, with a form that lets me create a new transaction.
 1. After clicking the "Submit" button on the New page's form, I am taken back to the "Index" page and can see the new transaction.
-1. I can visit the application via the internet.
-1. Once the application is hosted, I can share the link to the New page and someone else will be able to see the form to create a new transaction.
+1. I can click on an item in the "Index" and see a detailed view of the item. I also see an "Edit", "Delete" and "Back" button that are functional. 
+3. I can click on an "Edit" button from the show page that takes me to the Edit Page, with a form that lets me edit a transaction.
+4. After clicking the "Submit" button on the Edit page's form, I am taken back to the "Show" page of the item I edited. 
+5. I can use the delete button to delete an item, and then I am navigated back to the "Index" page, where the deleted item is no longer in the list, without having to refresh the page. 
+6. I can visit the application via the internet.
+7. Once the application is hosted, I can share the link to the New page and someone else will be able to see the form to create a new transaction.
 
 ### Acceptance Criteria
 
