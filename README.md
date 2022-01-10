@@ -123,6 +123,7 @@ For the front-end to be complete, the following must be true:
 ## Bonus Ideas:
 
 - Change favicon from default react app.
+- Add some logic/functionality that will make income a positive number and an expenditure a negative number, rather than having the user type it in.
 - Use [react-bootstrap](https://react-bootstrap.github.io) or similar, to help style your app.
 - Show the amount in the nav bar, so it is visible on every view.
 - Use the date object for the date, instead of just a string.
