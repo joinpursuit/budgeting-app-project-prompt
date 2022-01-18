@@ -21,19 +21,64 @@ Be sure to build this out as a portfolio piece: Something you would be excited t
 
 ### User Stories
 
-1. I can navigate to the Index page and New page from the navigation bar (and possibly the amount total).
-1. I can see a list of income and expenditures with the date, the transaction name and the total amount on the Index page.
-1. I can click on a "New" button that takes me to the New page, with a form that lets me create a new transaction.
-1. After clicking the "Submit" button on the New page's form, I am taken back to the "Index" page and can see the new transaction.
-1. I can click on an item in the "Index" and see a detailed view of the item.
-1. I also see an "Edit", "Delete" and "Back" button that are functional. These buttons can either be on the Index page, Show page or both. 
-1. I can click on an "Edit" button/link from the show page that takes me to the Edit Page,the form is pre-filled with the data from the item with a form that lets me edit a transaction. 
-1. After clicking the "Submit" button on the Edit page's form, I am taken back to the "Show" page of the item I edited. 
-1. I can use the delete button to delete an item, and then I am navigated back to the "Index" page, where the deleted item is no longer in the list, without having to refresh the page. 
-1. I can visit the application via the internet.
-1. Once the application is hosted, I can share the link to the New page and someone else will be able to see the form to create a new transaction.
-1. I have some logic with the account total: The account CSS changes depending on the amount. The account should show green (or similar color) if the amount is above $1000. There should be neutral/white color between $0 - $1000. And it should show a red (or similar color) if the bank account value falls below $0. The changing color can be text, background, border, as long as it is in/near the account total and provides clarity with what it is showing.
-1. UX/UI:  The user has ease using the app because the app styled. Forms are styled and properly labeled. The navigation is clear and easy to use, a color theme has been chosen and applied. At least one font has been chosen and applied. The app is responsive (readable/usable) across multiple screen sizes/widths.
+#### Navigation/Nav Bar
+
+- The Nav bar allows me to navigate to the Index and New pages
+
+#### Index Page
+
+- I can see a list of income and expenditures with the date, the transaction name and the amount on the Index page.
+
+- There is also an Account total visible that sums all the different expenditures and shows the user how much money they currently have.
+
+#### New Page
+
+- I can click on a "New" button that takes me to the New page, with a form that lets me create a new transaction.
+
+
+- Once a transaction is created, I am navigated back to the Index page
+
+#### Show Page
+
+- I can see a single expenditure with more details and appropriate navigation links
+
+### Edit page 
+
+- I can see a form that is pre-filled with an individual expenditure that allows me to update the expenditure. Once updated, I am taken back to the show page where I should be able to see the updated transaction, without needing to refresh the page.
+
+
+- The edit form is accessible either from the Show page or Index page via button/link.
+
+#### Delete functionality
+
+- The expenditure can be deleted. 
+
+- The delete functionality is accessible either from the Show page or Index page via button/link.
+
+#### Account Total
+
+ - The account total is visible either on the Index page (this is more straightforward) or in the Nav Bar (this is more challenging). 
+
+- The account CSS changes depending on the amount. The account should show green (or similar color) if the amount is above $1000. There should be neutral/white color between $0 - $1000. And it should show a red (or similar color) if the bank account value falls below $0. 
+
+- The changing color can be text, background, border, as long as it is in/near the account total and provides clarity with what it is showing.
+
+#### UX/UI
+- There is effort to make the app styled. Forms are styled and properly labeled. The navigation is clear and easy to use, a color theme has been chosen and applied. At least one font has been chosen and applied. The app is responsive (readable/usable) across multiple screen sizes/widths.
+
+#### Deployed online
+
+
+- I can visit the application via the internet
+
+
+- Netlify is configured correctly that I can send a link to the New page to someone and it works (does not give a 404)
+
+#### Bonus Feature
+
+- There is implementation of at least one bonus feature beyond what has been taught in class/required in lab/required in the rest of the criteria. 
+
+- This can be a CSS framework, a new NPM package, a chart that shows the data in a new way, working with the date object instead of strings etc. Please confirm with your instructor.
 
 
 ### Acceptance Criteria
