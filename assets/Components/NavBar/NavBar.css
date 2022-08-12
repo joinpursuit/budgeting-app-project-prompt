@@ -1,0 +1,14 @@
+.nav-bar {
+    background: rgba(0,200,5);
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 2px 2px 4px grey;
+    margin-bottom: 1em;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
