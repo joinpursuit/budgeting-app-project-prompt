@@ -1,18 +1,14 @@
 .home-page {
-    /* display: flex; */
     background-image: url('../images/budgeting.png');
     align-items: center;
     height: 1090px;
-    /* width: 1090px; */
     background-repeat: no-repeat;
 }
 .home-page > form {
     float: right;
     margin: 150px;
-    /* background: rgba(19, 35, 47, 0.9); */
     padding: 50px;
     border: 1px solid black;
-    /* background-color: #3a86ff; */
 
 }
 input[type="password"] {

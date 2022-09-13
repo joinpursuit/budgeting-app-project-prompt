@@ -4,23 +4,21 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* font-size: 20px; */
   }
   
   
   table {
       width: 50%;
       margin: auto;
-      /* color: white; */
       
     }
     
     td {
       text-align: center;
-      color: white;
+      color: rgb(115, 176, 115);
     }
     th {
-      color: white;
+      color: rgb(88, 152, 116);
     }
   
     h2 {
@@ -34,12 +32,10 @@
     }
     
     tbody tr:nth-child(even) {
-      /* background: #f4eafd; */
       background: rgba(255,80,0);
     }
   
     a {
       text-decoration: none;
-      /* color: #4442a5; */
       color: white;
     }
