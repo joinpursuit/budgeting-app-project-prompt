@@ -1,0 +1,45 @@
+.Budgets {
+    background: rgba(0,0,0);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* font-size: 20px; */
+  }
+  
+  
+  table {
+      width: 50%;
+      margin: auto;
+      /* color: white; */
+      
+    }
+    
+    td {
+      text-align: center;
+      color: white;
+    }
+    th {
+      color: white;
+    }
+  
+    h2 {
+      color: white;
+      margin-left: 10px;
+    }
+    
+    tbody td:not(td:first-of-type):hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    
+    tbody tr:nth-child(even) {
+      /* background: #f4eafd; */
+      background: rgba(255,80,0);
+    }
+  
+    a {
+      text-decoration: none;
+      /* color: #4442a5; */
+      color: white;
+    }
