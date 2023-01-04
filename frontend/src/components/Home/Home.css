@@ -1,0 +1,36 @@
+.home-page {
+    background-image: url('../images/budgeting.png');
+    align-items: center;
+    height: 1090px;
+    background-repeat: no-repeat;
+}
+.home-page > form {
+    float: right;
+    margin: 150px;
+    padding: 50px;
+    border: 1px solid black;
+
+}
+input[type="password"] {
+    margin: 0;
+    width: 300px;
+    padding: 5px;
+}
+input[type="checkbox"] {
+    margin: 10px;
+    width: 34px;
+    padding: 5px;
+}
+.home-page form button {
+    font-size: large;
+    padding: 5px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+    color:aliceblue;
+    background: #3a86ff;
+}
+.home-page form p {
+    margin-left: 50px;
+}

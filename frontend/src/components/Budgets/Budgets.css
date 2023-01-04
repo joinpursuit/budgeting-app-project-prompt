@@ -1,0 +1,41 @@
+.Budgets {
+    background: rgba(0,0,0);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  table {
+      width: 50%;
+      margin: auto;
+      
+    }
+    
+    td {
+      text-align: center;
+      color: rgb(115, 176, 115);
+    }
+    th {
+      color: rgb(88, 152, 116);
+    }
+  
+    h2 {
+      color: white;
+      margin-left: 10px;
+    }
+    
+    tbody td:not(td:first-of-type):hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    
+    tbody tr:nth-child(even) {
+      background: rgba(255,80,0);
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+    }
